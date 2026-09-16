@@ -1,0 +1,51 @@
+* { 
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+}
+.header-top {
+    height: 52px;
+    padding: 16px;
+    
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+        img {
+            width: 80px;
+            height: 52px;
+        }
+    }
+    .users {
+        display: flex;
+        gap: 16px;
+
+        > div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            span {
+                font-size: 10px;
+                text-align: center;
+                font-weight: 700;
+            }
+            .log {
+                max-width: 32px;
+            }
+        }
+        .comu {
+            img {
+                width: 24px;
+            }
+        }
+        .login {
+            img {
+                width: 38px;
+            }
+            
+        }
+    }
+}
