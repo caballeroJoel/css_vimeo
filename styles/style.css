@@ -36,16 +36,37 @@
                 max-width: 32px;
             }
         }
+
         .comu {
             img {
                 width: 24px;
             }
         }
+
         .login {
             img {
                 width: 38px;
             }
-            
+
         }
+
+    }
+
+}
+.banner {
+    padding: 0px 1rem;
+    
+    .container {
+        
+        height: 488px;
+        padding: 32px 24px;
+
+        border-radius: 16px;
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../imgs/hands-keyboard.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 73% center;
+
     }
 }
