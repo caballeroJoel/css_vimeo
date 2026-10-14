@@ -309,7 +309,13 @@
             font-size: 20px;
         }
         span {
+            margin-bottom: 16px;
             color: var(--color-text-2);
+        }
+        button {
+            width: 85%;
+            background-color: var(--color-bck-blk);
+            color: var(--color-text);
         }
     }
 }
